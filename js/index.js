@@ -100,7 +100,8 @@ parent.prepend(priorNav);
 parent.appendChild(lastNav);
 
 
-button.addEventListener('click', () => button.style.fontSize = "3rem");
+button.addEventListener('click', () => button.style.color = "blue");
+button.addEventListener('click', () => mainHeading.textContent = "I changed because the button has been clicked");
 
 let addressLine = document.querySelector('.contact p');
 let address1 = '123 Way 456 Street';
